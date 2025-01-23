@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: 350ms;
+}
+.container {
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: auto;
+}
+body {
+  max-width: 1464px;
+  margin: auto;
+}
+/* HEADER START */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.nav__link {
+  display: flex;
+  list-style: none;
+  gap: 12%;
+}
+.nav__link-img:hover {
+  transform: rotate(360deg);
+}
+.nav__link-select {
+  border: none;
+  opacity: 0.7;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav__link-select:hover {
+  color: blue;
+  transform: rotate(2deg);
+}
+.nav__link-a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav__link-a:hover {
+  color: #0010ff;
+  text-decoration: underline;
+}
+.nav__button {
+  display: flex;
+  gap: 10px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.nav__login {
+  border: 2px solid white;
+  background-color: #fff;
+  border-radius: 15px;
+  opacity: 0.7;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 35px;
+  cursor: pointer;
+}
+.nav__login:hover {
+  border: 2px solid blue;
+  color: blue;
+  box-shadow: 0 0 10px 5px gray;
+  transform: scale(102%);
+}
+.nav__register {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px 25px;
+  background-color: #fff;
+  opacity: 0.7;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+.nav__register:hover {
+  border: 2px solid blue;
+  color: blue;
+  box-shadow: 0 0 10px 5px gray;
+  transform: scale(102%);
+}
+/* HEADER FILISH */
+
+/* MAIN START */
+main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__left {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.main__left-title {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.main__left-title h1 {
+  padding-top: 80px;
+  font-size: 50px;
+  font-family: sans-serif;
+  max-width: 300px;
+}
+.main__left-title p {
+  font-size: 16px;
+  opacity: 0.7;
+  max-width: 350px;
+  font-family: sans-serif;
+}
+.main__left-title button {
+  max-width: 150px;
+  padding: 12px 0;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+.main__left-title button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(102%);
+  box-shadow: 0 0 10px 1px blue;
+}
+.main__left-brand {
+  display: flex;
+  gap: 30px;
+}
+.main__left-brand img:hover {
+  transform: rotate(3deg);
+}
+.main__right {
+  width: 400px;
+}
+.main__right:hover {
+  transform: scale(102%);
+}
+/* MAIN FILISH */

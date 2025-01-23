@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Home</title>
-  <link rel="stylesheet" href="src/css/style.css">
-  <link rel="icon" href="src/pic/icon.png">
-</head>
-<body>
-  
-  
-</body>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="icon" href="src/pic/icon.png" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header>
+      <nav>
+        <ul class="nav__link">
+          <li>
+            <a href="#">
+              <img class="nav__link-img" src="src/pic/logo.svg" alt="img" />
+            </a>
+          </li>
+          <li>
+            <select class="nav__link-select">
+              <option selected hidden>Features</option>
+            </select>
+          </li>
+          <li>
+            <select class="nav__link-select">
+              <option selected hidden>Company</option>
+            </select>
+          </li>
+          <li>
+            <a class="nav__link-a" href="#">Careers</a>
+          </li>
+          <li>
+            <a class="nav__link-a" href="#">About</a>
+          </li>
+        </ul>
+        <div class="nav__button">
+          <button class="nav__login">Login</button>
+          <button class="nav__register">Register</button>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER FINISH -->
+
+    <!-- MAIN START -->
+    <main>
+      <div class="container">
+        <div class="main__left">
+          <div class="main__left-title">
+            <h1>Make remote work</h1>
+            <p>
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <button>Learn more</button>
+          </div>
+          <div class="main__left-brand">
+            <img src="src/pic/brand-1.svg" alt="img" />
+            <img src="src/pic/brand-2.svg" alt="img" />
+            <img src="src/pic/brand-3.svg" alt="img" />
+            <img src="src/pic/brand-4.svg" alt="img" />
+          </div>
+        </div>
+        <img src="src/pic/main-img.png" alt="img" class="main__right" />
+      </div>
+    </main>
+    <!-- MAIN FINISH -->
+  </body>
 </html>
