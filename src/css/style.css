@@ -110,9 +110,9 @@ main .container {
 }
 .main__left-title h1 {
   padding-top: 80px;
-  font-size: 65px;
+  font-size: 80px;
   font-family: sans-serif;
-  max-width: 350px;
+  max-width: 450px;
 }
 .main__left-title p {
   font-size: 16px;
