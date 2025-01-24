@@ -46,6 +46,7 @@ nav {
   font-family: sans-serif;
   font-size: 14px;
   font-weight: 600;
+  transition: 750ms;
 }
 .nav__link-a:hover {
   color: #0010ff;
@@ -110,14 +111,15 @@ main .container {
 }
 .main__left-title h1 {
   padding-top: 80px;
-  font-size: 80px;
+  font-size: 70px;
   font-family: sans-serif;
-  max-width: 450px;
+  max-width: 420px;
 }
 .main__left-title p {
   font-size: 16px;
-  opacity: 0.7;
-  max-width: 350px;
+  opacity: 0.6;
+  font-weight: 600;
+  max-width: 360px;
   font-family: sans-serif;
 }
 .main__left-title button {
